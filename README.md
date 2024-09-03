@@ -36,4 +36,4 @@ Password of that specific length will be generated.
 
 > **Note: The number of letters in the password will be computed automatically by the formula**
 
-number of simple letters in password = special characters in password - total numbers in password 
+`number of simple letters in password = special characters in password - total numbers in password`
