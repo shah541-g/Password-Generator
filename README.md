@@ -32,4 +32,8 @@ Password of that specific length will be generated.
        but the sum of total number of numbers you want in pass and special characters goes
        out of the passwords range.
    2) if length of password is smaller than any of the two things i.e;
-          Total number of numbers you want and special characters you want in password 
+          Total number of numbers you want and special characters you want in password
+
+> **Note: The number of letters in the password will be computed automatically by the formula**
+
+number of simple letters in password = special characters in password - total numbers in password 
