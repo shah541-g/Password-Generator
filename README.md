@@ -17,18 +17,19 @@ Day 2 of Python: A terminal based password generating project.
 8) 3 for loops get all the random letters, numbers and special characters based on the password length
 
 > **How it actually works?**
-1) you just have to provide the following inputs:
-   > Password length
-   > Number of special characters
-   > Total number of numbers
+
+you just have to provide the following inputs:
+1) Password length
+2) Number of special characters
+3) Total number of numbers
 
 Password of that specific length will be generated.
 
 > **Exceptions:**
 1) All sort of exceptions will be handled by try except
 2) For handling logic errors here are the following logic errors which are resolved
-    > if total numnber of numbers in password is less than the total length of password
+   1) if total numnber of numbers in password is less than the total length of password
        but the sum of total number of numbers you want in pass and special characters goes
        out of the passwords range.
-    > if length of password is smaller than any of the two things i.e;
-       Total number of numbers you want and special characters you want in password 
+   2) if length of password is smaller than any of the two things i.e;
+          Total number of numbers you want and special characters you want in password 
