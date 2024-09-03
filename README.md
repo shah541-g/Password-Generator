@@ -18,17 +18,17 @@ Day 2 of Python: A terminal based password generating project.
 
 > **How it actually works?**
 1) you just have to provide the following inputs:
-   a) Password length
-   b) Number of special characters
-   c) Total number of numbers
+   > Password length
+   > Number of special characters
+   > Total number of numbers
 
 Password of that specific length will be generated.
 
 > **Exceptions:**
 1) All sort of exceptions will be handled by try except
 2) For handling logic errors here are the following logic errors which are resolved
-    a) if total numnber of numbers in password is less than the total length of password
+    > if total numnber of numbers in password is less than the total length of password
        but the sum of total number of numbers you want in pass and special characters goes
        out of the passwords range.
-    b) if length of password is smaller than any of the two things i.e;
+    > if length of password is smaller than any of the two things i.e;
        Total number of numbers you want and special characters you want in password 
